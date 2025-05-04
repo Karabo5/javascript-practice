@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background:#e7e4e5;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgb(222, 228, 238);
+  }
+  .about{
+    color: #065d06;
+    
+  }
+  .profile-img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #2c3e50;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: chocolate;
+  }
+  
+
+  .skills ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  
+  .skills li {
+    background: #e7d5eaac;
+    margin-bottom: 8px;
+    padding: 10px;
+    color: rgb(45, 89, 4);
+  }
+  
+  /* Footer with Flexbox */
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+    color: brown;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #1a73e8;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #010711;
+  }
+ /* Contact Form Styles */
+.contact {
+    margin: 30px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0d5bba;
+  }
+  
+  #form-message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+  
+  #form-message.success {
+    background-color: #d4edda;
+    color: #155724;
+    display: block;
+  }
+  
+  /* Counter Styles */
+  .counter {
+    margin: 30px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .counter-container {
+    text-align: center;
+  }
+  
+  #count {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a73e8;
+  }
+  
+  .hidden {
+    display: none;
+  }

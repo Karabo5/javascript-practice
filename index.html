@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karabo's Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+  
+</head>
+<body>
+  <div class="container">
+
+    <header class="header">
+      <img src="pretty.jpg" alt="karabo'profile photo" class="profile-img"/>
+      <h1>Karabo Mogano</h1>
+    
+    </header>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I’m a passionate computer science student who bridges code and creativity—specializing in web development and UI design. What excites me most is building tools that solve real-world problems, whether it’s streamlining workflows with Java applications, designing intuitive interfaces, or optimizing databases for efficiency. I believe technology should be as functional as it is beautiful, and I’m committed to writing clean code that makes a tangible difference.
+         
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML </li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>PL/SQL</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+        <div id="form-message" class="hidden"></div>
+      </section>
+  
+      <section class="counter">
+        <h2>Counter App</h2>
+        <div class="counter-container">
+          <p>Count: <span id="count">0</span></p>
+          <button id="increment-btn">Increment</button>
+        </div>
+      </section>
+
+    <footer class="footer">
+      <p>Connect with me:</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/karabo-mogano-594966293/">LinkedIn</a> |
+        <a href="https://github.com/Karabo5">GitHub</a>
+      </div>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
